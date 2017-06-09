@@ -48,3 +48,9 @@ body {
 	border: none;
 	color: #FFF;
 }
+
+h2 {
+	padding-bottom: 20px;
+	border-bottom: dashed 1px #000;
+	margin-bottom: 30px;
+}
