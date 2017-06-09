@@ -1,11 +1,137 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Gustavo Azevedo</title>
-<link rel="stylesheet" type="text/css" href="style.css">
+  <title>Gustavo Azevedo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Gustavo Azevedo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a data-toggle="modal" data-target="#myModal" href="#">QUEM</a></li>
+        <li><a target="_blank" href="https://github.com/gustavoxazevedo">GITHUB</a></li>
+        <li><a href="#">CONTATO</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <h1>Desenvolvedor Front-end</h1>
+  <p>Criando experiências interativas</p> 
+</div>
+
+<div class="container text-center">
+	<h2>Conhecimentos / Habilidades</h2>
+</div><!--/container-->
+
+<div class="container">
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        Design Responsivo</a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+      <div class="panel-body">Crio conteúdo responsivo com foco em prover a melhor experiência possível ao usuário, independente de qual dispositivo esta utilizando para acessar o conteúdo.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Desenvolvimento Front-end</a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">Com uso do HTML5, CSS3, Javascript e diversas bibliotecas, crio websites, jogos e aplicações online. Meu processo de criação envolve ferramentas como Sass/Less, Gulp, Bower e NPM para acelerar o processo.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        Frameworks / Bicliotecas</a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">Utilizo frameworks sempre que necessário para otimizar o processo de produção. Dentre elas estão o Bootstrap, Foundation e Material Design.</div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+        Wordrpress</a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">Atuo com criação e desenvolvimento de temas e websites em Wordpress, com foco na facilidade da manutenção do conteúdo.</div>
+    </div>
+  </div>
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+        Design</a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">Utilizo Photoshop e Illustrator para criação de interfaces e ilustrações. As ilustrações, faço com a mesa digitalizadora (tablet).</div>
+    </div>
+  </div>
+</div>
+
+</div><!--/container-->
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Desenvolvido por <a href="https://www.w3schools.com">Gustavo Azevedo</a></p> 
+</footer>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Sobre Mim</h4>
+        </div>
+        <div class="modal-body">
+          <p>Sou designer e desenvolvedor front-end. Trabalho sempre com o foco na experiência do usuário e na criatividade.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Sair</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
